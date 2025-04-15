@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+  }
+  
+  nav button:hover {
+    text-decoration: underline;
+  }

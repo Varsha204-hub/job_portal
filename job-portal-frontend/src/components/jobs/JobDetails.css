@@ -1,0 +1,126 @@
+.job-details {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .job-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+  }
+  
+  .company-logo img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .job-info {
+    flex: 1;
+  }
+  
+  .job-info h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+  }
+  
+  .job-info h2 {
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    margin-bottom: 1rem;
+  }
+  
+  .job-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .job-meta span {
+    background: var(--light-gray);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .job-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .job-content {
+    margin-top: 2rem;
+  }
+  
+  .job-content section {
+    margin-bottom: 2rem;
+  }
+  
+  .job-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+  }
+  
+  .job-content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .job-content ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .skill-tag {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .similar-jobs {
+    margin-top: 3rem;
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+  }
+  
+  .similar-jobs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .similar-job-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .similar-job-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .similar-job-card h4 {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+  }
